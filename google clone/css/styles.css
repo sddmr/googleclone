@@ -1,0 +1,86 @@
+html{
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+    font-weight: 300;
+  }
+ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+li{
+  float: right;
+}
+li a{
+  color: #000;
+  display: block;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size:14px;
+}
+.kare{
+  height:23px;
+  position:relative;
+  bottom:4px;
+}
+.giris{
+  background-color: #2456ac;
+  color: #fff;
+  border:none;
+  border-radius:15px;
+  padding:8px 11px;
+  position:relative;
+  bottom:7px;
+  font-weight:bold;
+  }
+.logo{
+  height: 160px;
+  width: auto;
+  margin-top:100px;
+  margin-bottom:20px;
+  margin-left: 520px;
+  justify-content: center;
+  display: flex;
+}
+.bar{
+  margin: auto;
+  width:575px;
+  border-radius: 30px;
+  border: 1px solid #dcdcdc;
+}
+.searchbar{
+  height:45px;
+  border-radius: 30px;
+  border: none;
+  width:500px;
+  font-size:16px;
+  outline: none;
+  color: #707070;
+}
+.voice{
+  height:20px;
+  position:relative;
+  top:5px;
+  left:25px;
+}
+.buttons{
+  position: absolute;
+  right: 15cm;
+  top: 11cm;
+  justify-content: center;
+  display: flex;
+}
+.button{
+  background-color: #f5f5f5;
+  border:none;
+  color:#707070;
+  font-size:15px;
+  padding: 10px 20px;
+  margin:5px;
+  border-radius:4px;
+  outline:none;
+  justify-content: center;
+  display: flex;
+}
+
